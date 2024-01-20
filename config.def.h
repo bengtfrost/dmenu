@@ -9,7 +9,7 @@ static const char *fonts[] = {
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	/* default color scheme first two and last lines */
+	/* default color scheme first two and [SchemeOut] */
     // [SchemeNorm] = { "#bbbbbb", "#222222" },
 	// [SchemeSel] = { "#eeeeee", "#005577" },
        [SchemeNorm] = { "#D2D2D2", "#383c4a" },
